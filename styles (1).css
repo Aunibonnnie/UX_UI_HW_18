@@ -1,0 +1,150 @@
+html {
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+    vertical-align: center 
+  } 
+  div.gallery {
+    border: 1px solid #ccc;
+    vertical-align: center
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    vertical-align: center
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20%;
+    height: 20%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B9A1CA;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #63457a;
+  }
+.center {
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+  }
+.center {
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  .nav {
+    background-color: rgb(#63457a); 
+    list-style-type: none;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    padding: 1%
+  }
+  
+  .nav li {
+    vertical-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 73%;
+    padding: 1%;
+  }
+              .myDiv {
+                padding: 1%;
+                width: 23%;
+                border: 5px solid rgb(228, 188, 234);
+                background-color: rgb(249, 182, 223);    
+                vertical-align: right;
+                text-align: center;
+              }
+
+img.a {
+    vertical-align: baseline;
+  }
+  
+  img.b {
+    vertical-align: text-top;
+  }
+  
+  img.c {
+    vertical-align: text-bottom;
+  }
+  
+  img.d {
+    vertical-align: sub;
+  }
+  
+  img.e {
+    vertical-align: super;
+  }
+
+  .center {
+    text-align: center;
+    color: rgb(0, 0, 0)(0, 0, 0);
+  }
+
+  #para1 {
+    text-align: center;
+    color: red;
+  }
+
+  .city {
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
